@@ -1,0 +1,35 @@
+.box{
+    :global{
+      li{
+        border: 1px solid #FE5F1E;
+        border-radius: 100%;
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+      
+        a{
+          font-size: 20px;
+          line-height: 50px;
+          display: block;
+          height: 100%;
+          text-align: center;
+          cursor: pointer;
+        }
+      }
+      li:not(:last-child){
+        margin-right: 10px;
+      }
+      li:hover{
+        background-color:#FE5F1E ;
+        color:white;
+      }
+      
+    }
+  
+    :global{
+  .selected{
+    background-color:#FE5F1E ;
+        color:white;
+  }
+    }
+  }

@@ -1,0 +1,101 @@
+.pizza{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+  
+    @media (max-width:500px){
+      display: block;
+      position: relative;
+    }
+  
+    @media (min-width:1201px){
+      padding: 30px 220px;
+    }
+    @media (min-width:1501px){
+      padding: 30px 320px;
+    }
+    @media (min-width:1920px){
+      padding: 30px 420px;
+    }
+  
+    .first{
+      display: flex;
+      align-items: center;
+  
+      @media (max-width:500px){
+        justify-content: center;
+      }
+  
+      img{
+        width: 80px;
+        height: 80px;
+        margin-right:15px;
+      }
+  
+      .title{
+        font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0.01em;
+  color: #000000;
+      }
+  
+      .params{
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 0.01em;
+        color: #8D8D8D;
+      }
+    } 
+  
+    .second{
+      display:flex;
+     
+      align-items: center;
+      button {
+      width:32px;
+      height:32px;
+      border: 3px solid #FE5F1E;
+      background: white;
+      font-size: 14px;
+      font-weight: 400;
+      cursor: pointer;
+      }
+      span{
+        font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0.01em;
+  color: #000000;
+  border:none;
+  margin: 12px;
+  cursor: context-menu;
+  
+      }
+      @media (max-width:500px){
+        justify-content: center;
+      }
+    }
+  
+    .price{
+      cursor: context-menu;
+      border:none;
+      font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0.01em;
+  color: #000000;
+    }
+  
+    .thrid{
+      img {
+      width:13px;
+      height:13px;
+      cursor: pointer;
+      }
+  
+      @media (max-width:500px){
+        position: absolute;
+      top:0;
+      right: 5%;
+      }
+    }
+  }
