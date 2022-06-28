@@ -1,7 +1,7 @@
 import React, { ChangeEvent, useCallback, useRef, useState } from "react";
 import debounce from "lodash.debounce";
 import styles from "../Input/Input.module.scss";
-import img5 from "./img/delete.png";
+import img5 from "../../assets/img/delete.png";
 import { useDispatch } from "react-redux";
 import { setStateSearch } from "../../redux/filter/slice";
 

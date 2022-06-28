@@ -7,9 +7,9 @@ type GroupsProps = {
 }
 
 const Groups: React.FC<GroupsProps> = React.memo(({toggleIndex, activeIndex}) => {
+  
 const categories = ["Все", "Мясные", "Вегетарианские", "Гриль", "Острые"];
   
-
   return (
     <ul className={styles.categories}>
       {categories.map((name, i) => (

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Cart.module.scss";
-import img from "./img/cart.svg";
-import img2 from "./img/trash.svg";
+import img from "../../../assets/img/cart.svg";
+import img2 from "../../../assets/img/trash.svg";
 import PizzaBlock from "./pizzaBlock/PizzaBlock";
 import { useSelector, useDispatch } from "react-redux";
 import EmptyCart from "./emptyCart/EmptyCart";

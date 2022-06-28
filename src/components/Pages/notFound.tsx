@@ -1,6 +1,6 @@
 import React from "react";
 
 const NotFound: React.FC = () => {
-  return <div>не найдено</div>;
+  return <div>страница не найдена</div>;
 };
 export default NotFound;

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./PizzaBlock.module.scss";
-import img3 from "../img/delete.png";
+import img3 from "../../../../assets/img/delete.png";
 import { useDispatch } from "react-redux";
 import {
   setStatePizzas,

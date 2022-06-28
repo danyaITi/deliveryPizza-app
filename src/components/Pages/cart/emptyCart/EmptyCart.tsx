@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import img from "../img/cartEmpty.svg";
+import img from "../../../../assets/img/cartEmpty.svg";
 import styles from "./EmptyCart.module.scss";
 
 const EmptyCart: React.FC = () => {
+  
   return (
     <div className={styles.abs}>
       <div>

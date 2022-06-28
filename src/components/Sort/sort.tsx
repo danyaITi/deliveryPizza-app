@@ -10,6 +10,7 @@ import {
   SortPropertyEnum
 } from "../../redux/filter/types";
 
+
 export const sortItemsName: Item[] = [
   { name: "популярности", sortProperty: SortPropertyEnum.RATING },
   // { name: "популярности(asc)", sortProperty: "-rating" },
@@ -38,7 +39,6 @@ const Sort: React.FC = React.memo(() => {
   useEffect(() => {
     const clickOutside = (event: MouseEvent) => {
       const ev = event as OutsideCkick;
-
       if (sortRef.current && !ev.path.includes(sortRef.current)) {
         setOpen(false);
       }

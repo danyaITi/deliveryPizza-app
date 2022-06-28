@@ -1,34 +1,32 @@
-.box{
-    position: relative;
-    padding-left: 20px;
-  }
+.box {
+  position: relative;
+  padding-left: 20px;
+}
   
-  p{
-    font-size: 14px;
-    font-weight: 700;
+p {
+  font-size: 14px;
+  font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.015em;
   color: #2C2C2C;
-  }
+}
   
-  span{
-    border-bottom: 1px dashed #FE5F1E;
-    font-weight: 400;
+span {
+  border-bottom: 1px dashed #FE5F1E;
+  font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.015em;
   color: #FE5F1E;
   cursor: pointer;
-  }
+}
   
-  .lists{
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+.lists {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
   border-radius: 10px;
   position: absolute;
   padding: 10px 0;
   right: 0;
-  
-  
-  li{
+  li {
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
@@ -37,7 +35,8 @@
     cursor: pointer;
   }
   
-  li:hover{
-    color: #FE5F1E;
-  }
-  }
+li:hover {
+  color: #FE5F1E;
+}
+
+}

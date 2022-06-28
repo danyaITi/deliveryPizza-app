@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
-import Cart from "./components/Pages/cart";
+import Cart from "./components/Pages/cart/Cart";
 import Home from "./components/Pages/Home";
 import NotFound from "./components/Pages/notFound";
 import "./styles.scss";

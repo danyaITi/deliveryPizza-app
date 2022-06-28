@@ -1,40 +1,39 @@
 .absolute{
+  position: absolute;
+  top:125px;
+  left:36%;
+  @media (max-width:1200px){
+    left:5%;
+  }
+
+}
+  
+input{
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 8px 10px;
+  height: 25px;
+  width: 400px;
+  @media (max-width:455px){
+    width: 250px;
+  }
+  &:focus{
+    border: 2px solid gray;
+  }
+
+}
+
+.box {
+  position: relative;
+  img {
+    cursor: pointer;
+    opacity: .7;
+    width: 10px;
+    height: 10px;
     position: absolute;
-    top:125px;
-    left:36%;
-  
-    @media (max-width:1200px){
-      left:5%;
-    }
-  
+    top: 8px;
+    right:12px
   }
-  
-  input{
-    border-radius: 10px;
-    border: 1px solid black;
-    padding: 8px 10px;
-    height: 25px;
-    width: 400px;
-    @media (max-width:455px){
-      width: 250px;
-    }
-  
-    &:focus{
-      border: 2px solid gray;
-    }
-  }
-  .box{
-    position: relative;
-  
-  
-    img{
-      cursor: pointer;
-      opacity: .7;
-      width: 10px;
-      height: 10px;
-      position: absolute;
-      top: 8px;
-      right:12px
-    }
-  }
+
+}
   

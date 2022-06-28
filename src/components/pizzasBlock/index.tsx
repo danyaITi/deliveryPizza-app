@@ -23,13 +23,12 @@ const PizzasBlock: React.FC<PizzasBlockProps> = ({
   price,
   type
 }) => {
+
   const dispatch = useDispatch();
   const itemCount = useSelector(selectById(id));
   const [activeSize, setActiveSize] = useState(0);
   const [activeType, setActiveType] = useState(0);
   const typeNames = ['тонкое', 'традиционное'];
- 
-
   const addedCount = itemCount ? itemCount.count : 0;
 
   function addPizza() {

@@ -22,6 +22,7 @@ import { RootState, useAppDispatch } from "../../redux/store";
 const Home: React.FC = () => {
   const searchParams = useRef(false);
   const isMounted = useRef(false);
+
   const navigate = useNavigate();
 
   const dispatch = useAppDispatch();
@@ -56,7 +57,7 @@ const Home: React.FC = () => {
       const params = qs.parse(
         window.location.search.substring(1)
       ) as ParamsPizza;
-
+      
       const sort = sortItemsName.find(
         (obj) => obj.sortProperty === params.sort
       );
