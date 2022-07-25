@@ -5,8 +5,8 @@ import img2 from "../../../assets/img/trash.svg";
 import PizzaBlock from "./pizzaBlock/PizzaBlock";
 import { useSelector, useDispatch } from "react-redux";
 import EmptyCart from "./emptyCart/EmptyCart";
-import { setRemoveAll } from "../../../redux/cart/slice";
-import { selectCart } from "../../../redux/cart/selectors"
+import { setRemoveAll } from "../../redux/cart/slice";
+import { selectCart } from "../../redux/cart/selectors"
 import { Link } from "react-router-dom";
 
 const Cart: React.FC = () => {

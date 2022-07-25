@@ -6,8 +6,8 @@ import {
   setStatePizzas,
   minusPizza,
   setDeletePizza
-} from "../../../../redux/cart/slice";
-import {Pizza} from "../../../../redux/cart/types";
+} from "../../../redux/cart/slice";
+import {Pizza} from "../../../redux/cart/types";
 
 type PizzaBlockProps = {
   img: string;

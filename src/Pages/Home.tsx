@@ -1,23 +1,23 @@
 import React, { useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import qs from "qs";
-import Groups from "../Groups/Groups";
-import PizzasBlock from "../pizzasBlock";
-import Sort, { sortItemsName } from "../Sort/sort";
-import Skeleton from "../pizzasBlock/skeleton";
-import Pagination from "../Pagination/Pagination";
+import Groups from "../components/Groups/Groups";
+import PizzasBlock from "../components/pizzasBlock";
+import Sort, { sortItemsName } from "../components/Sort/sort";
+import Skeleton from "../components/pizzasBlock/skeleton";
+import Pagination from "../components/Pagination/Pagination";
 import { useSelector } from "react-redux";
 import {
   selectCurrentPage,
   selectFilter,
   selectSort,
   
-} from "../../redux/filter/selectors";
-import { selectPizza } from "../../redux/pizza/selectors";
-import { fetchPizzas } from "../../redux/pizza/asyncAction";
-import{ ParamsPizza, Pizza } from "../../redux/pizza/types";
-import { setStatePage, setStateValue, setStateFilters } from "../../redux/filter/slice";
-import { RootState, useAppDispatch } from "../../redux/store";
+} from "../redux/filter/selectors";
+import { selectPizza } from "../redux/pizza/selectors";
+import { fetchPizzas } from "../redux/pizza/asyncAction";
+import{ ParamsPizza, Pizza } from "../redux/pizza/types";
+import { setStatePage, setStateValue, setStateFilters } from "../redux/filter/slice";
+import { RootState, useAppDispatch } from "../redux/store";
 
 const Home: React.FC = () => {
   const searchParams = useRef(false);
